@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="330.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml" fx:controller="lugodtest.SampleController">
+  <children>
+    <VBox id="VBox" alignment="CENTER" prefHeight="120.0" prefWidth="271.0" spacing="5.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="24.0">
+      <children>
+        <TextField fx:id="input" prefWidth="200.0" promptText="Type a Message" />
+        <Button fx:id="button" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" minHeight="16.0" minWidth="69.0" prefHeight="16.0" prefWidth="200.0" style="-fx-border-color: black" />
+      </children>
+    </VBox>
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="82.29" AnchorPane.topAnchor="25.0">
+      <image>
+        <Image url="@lugod-logo.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

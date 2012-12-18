@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml" fx:controller="lugodtest.SampleController">
+  <children>
+    <Button fx:id="button" layoutX="126.0" layoutY="90.0" onAction="#handleButtonAction" text="Click Me!" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" style="-fx-border-color: black" />
+    <TextField fx:id="input" layoutX="60.0" layoutY="40.0" prefWidth="200.0" promptText="Type a Message" />
+  </children>
+</AnchorPane>
